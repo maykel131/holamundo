@@ -8,7 +8,7 @@ $mensaje=_POST['mensaje'];
 $contenido ="nombre: " . $nombre . "\n Correo: " . $correo ."\n Telefono: " .$telefono. "\n Mensaje: " . $mensaje;
 
 mail($destino," Mensaje de la pagina ", $contenido);
-header("Location:gracias.html");
+header("Location:html/gracias.html");
 
 
  ?>
